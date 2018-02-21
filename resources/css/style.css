@@ -349,3 +349,16 @@ blockquote:before{
     top: -5px;
     left: -5px;
 }
+
+cite{
+    font-size: 90%;
+    margin-top: 25px;
+    display: block;
+}
+
+cite img{
+    height: 45px;
+    border-radius: 50%;
+    margin-right: 10px;
+    vertical-align: middle;
+}
