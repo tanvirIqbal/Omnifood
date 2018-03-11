@@ -18,6 +18,7 @@
   "homepage": "https://github.com/tanvirIqbal/Omnifood#readme",
   "dependencies": {
     "html5shiv": "^3.7.3",
+    "jquery": "^3.3.1",
     "respond.min.js": "^1.4.2",
     "selectivizr": "^1.0.3"
   }
