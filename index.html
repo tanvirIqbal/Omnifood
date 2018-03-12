@@ -15,9 +15,10 @@
     
     <body>
         <header>
-            <nav>
+            <nav class=".sticky">
                 <div class="row">
                     <img src="resources/img/logo-white.png" alt="Omnifood Logo" class="logo">
+                    <img src="resources/img/logo.png" alt="Omnifood Logo" class="logo-black">
                     <ul class="main-nav">
                         <li><a href="#">Food delivery</a></li>
                         <li><a href="#">How it works</a></li>
@@ -32,7 +33,7 @@
                 <a class="btn btn-ghost" href="#">Show me more</a>
             </div>
         </header>
-        <section class="section-feature">
+        <section class="section-feature js--section-feature">
             <div class="row">
                 <h2>Get food fast &mdash; not fast food</h2>
 
@@ -416,12 +417,14 @@
         </footer>
         
     </body>
-    
+    <!-- jQuery -->
     <script src="node_modules/jquery/dist/jquery.min.js"></script>
     <!-- This 3 scripts are for supporting HTML5 and CSS3 for old browser -->
     <script src="node_modules/respond.min.js/respond.min.js"></script>
     <script src="node_modules/html5shiv/dist/html5shiv.min.js"></script>
     <script src="node_modules/selectivizr/selectivizr.js"></script>
-    
+    <!-- Waypoints is the easiest way to trigger a function when you scroll to an element.  -->
+    <script src="node_modules/waypoints/lib/jquery.waypoints.js"></script>
+    <!-- Custom JS (This will always be in the last) -->
     <script src="resources/js/script.js"></script>
 </html>
