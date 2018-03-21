@@ -584,3 +584,25 @@ footer p {
     text-align: center;
     margin-top: 20px;
 }
+
+/* ----- Animation ----- */
+
+.js--wp-1,
+.js--wp-2,
+.js--wp-3{
+    opacity: 0; /* Hides the elements */
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+}
+
+.js--wp-4 {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+}
+
+/* When an element has both .js--wp-1 and .animated class */
+.js--wp-1.animated,
+.js--wp-2.animated,
+.js--wp-3.animated{
+    opacity: 1;
+}
