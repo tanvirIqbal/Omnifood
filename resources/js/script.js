@@ -108,4 +108,26 @@ $(document).ready(function(){
             icon.removeClass('ion-close-round');
         }
     });
+    
+    /* Maps */
+    var map = new GMaps({
+      div: '.map',
+      lat: 23.7805733,
+      lng: 90.39,
+      zoom: 12 /* Initial = 15 */
+    });
+    
+    map.addMarker({
+      lat: 23.7805733,
+      lng: 90.2792382,
+      title: 'Dhaka',
+      infoWindow: {
+      content: '<p>Dhaka HQ</p>'
+    }
+        /*
+      click: function(e) {
+        alert('You clicked in this marker');
+      }
+      */
+    });
 });

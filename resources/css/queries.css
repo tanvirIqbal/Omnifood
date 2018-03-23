@@ -39,7 +39,7 @@
     }
     
     .plan-price { font-size: 250%; }
-    .contact-form { width: 80%; }
+    .contact-form { width: 90%; }
 }
 
 
@@ -119,6 +119,21 @@
     
     .works-step { margin-bottom: 20px; }
     .works-step:last-of-type { margin-bottom: 20px; }
+    
+    .map-box {
+        height: auto;
+    }
+    
+    .map {
+        height: 300px;
+    }
+    
+    .form-box {
+        position: relative;
+        width: 100%;
+        height: auto;
+        padding: 30px 0;
+    }
     
 }
 
